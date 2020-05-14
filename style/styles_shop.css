@@ -1,0 +1,119 @@
+/* задание фона*/
+.shop {
+    background-image: url("../pic/shop_back.png");
+    font-family: Gotham Pro Bold;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shop__title {
+    color: #fff;
+    font-size: 30px;
+    height: 86px;
+    width: 195px;
+    margin: 0;
+    padding: 16px 59px;
+}
+
+/* создание ссылки со стрелкой */
+.shop__link {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 59px;
+    text-decoration: none;
+}
+
+.shop__link::after {
+    content: url("../pic/Arrow.png");
+    padding-left: 8px;
+}
+
+/* верстка для 1024рх */
+@media (max-width: 1024px) {
+    .shop {
+        background-image: url("../pic/shop_back1024.png");
+        height: 254px;
+    }
+
+    .shop__title {
+        padding: 10px 54px;
+    }
+
+    .shop__link {
+        padding-left: 54px;
+    }
+
+    .shop__link::after {
+        content: url("../pic/Arrow1024.png");
+        padding-left: 11px;
+    }
+}
+
+/* верстка для 768рх */
+@media (max-width: 768px) {
+    .shop {
+        background-image: url("../pic/shop_back768.png");
+        height: 415px;
+    }
+
+    .shop__title {
+        font-size: 50px;
+        height: 145px;
+        width: 355px;
+        padding: 42px 45px;
+    }
+
+    .shop__link {
+        font-size: 20px;
+        padding-left: 45px;
+    }
+
+    .shop__link::after {
+        content: url("../pic/Arrow768.png");
+        padding-left: 9px;
+    }
+}
+
+/* верстка для 375px */
+@media (max-width: 375px) {
+    .shop {
+        background-image: url("../pic/shop_back375.png");
+        height: 191px;
+    }
+
+    .shop__title {
+        font-size: 20px;
+        height: 61px;
+        width: 150px;
+        line-height: 19px;
+        padding: 29px 0 14px 48px;
+    }
+
+    .shop__link {
+        font-size: 12px;
+        padding-left: 48px;
+    }
+
+    .shop__link::after {
+        content: url("../pic/Arrow375.png");
+        padding-left: 7px;
+    }
+}
+
+/* верстка для 320px */
+@media (max-width: 320px) {
+    .shop {
+        background-image: url("../pic/shop_back320.png");
+    }
+
+    .shop__title {
+        padding-left: 19px;
+    }
+
+    .shop__link {
+        padding-left: 19px;
+    }
+}

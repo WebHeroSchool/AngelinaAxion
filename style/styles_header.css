@@ -1,0 +1,211 @@
+body {
+    margin: 12px 70px;
+}
+
+/* расположение элементов */
+.head {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Gotham Pro Medium;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* форма поиска */
+.head__center {
+    margin-left: auto;
+    margin-right: 36px;
+}
+
+.head__search-container {
+    border-bottom: 1px solid #000;
+    height: 25px;
+}
+
+.head__search-line {
+    border: none;
+    padding: 0;
+    width: 160px;
+}
+
+.head__search-line:focus {
+    outline: none;
+}
+
+.head__search-button {
+    background: url("../pic/vector.png");
+    border: none;
+    height: 14px;
+    width: 13.52px;
+    padding: 0;
+    margin-top: 6px;
+}
+
+/* оформление ссылок */
+.head__link {
+    color: #000;
+    text-decoration: none;
+}
+
+/* добавление картинки для корзины */
+.cart::after {
+    content: url("../pic/Group 2.png");
+    display: inline-block;
+    padding: 0 0 0 3.95px;
+    vertical-align: middle;
+}
+
+/* оформление флага */
+.head__country {
+    display: inline-block;
+    vertical-align: middle;
+    height: 13px;
+    width: 20px;
+}
+
+/* оформление ссылок внутри блоков */
+.head__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head__right {
+    display: flex;
+    align-items: center;
+}
+
+.head__link {
+    margin-right: 35px;
+}
+
+.head__logo {
+    margin-right: 45px;
+}
+
+/* промежуточная верстка 1100px*/
+@media (max-width: 1100px) {
+    body {
+        margin: 11px 60px;
+    }
+
+    .head__logo {
+        margin-right: 37px;
+    }
+}
+
+/* верстка для 1024рх */
+@media (max-width: 1024px) {
+    body {
+        margin: 10px 47px;
+    }
+
+    .head {
+        margin-bottom: 23px;
+    }
+
+    .head__logo {
+        height: 61px;
+        margin-right: 29px;
+    }
+
+    .head__country {
+        height: 14px;
+        width: 18px;
+    }
+
+    .head__sign .head__link {
+        margin-right: 27px;
+    }
+
+    .head__center {
+        margin-right: 32px;
+    }
+
+    .head__search-line {
+        width: 142px;
+    }
+}
+
+/* промежуточная верстка 896px */
+@media (max-width: 917px) {
+    .head__link {
+        margin-right: 15px;
+    }
+
+    .head__search-line {
+        width: 90px;
+    }
+
+}
+
+/* верстка 768рх */
+@media (max-width: 768px) {
+    body {
+        margin: 3px 0 0 0;
+    }
+
+    .head {
+        margin-bottom: 0;
+    }
+
+    .head {
+        height: 111px;
+    }
+
+    .head__left, .head__right, .head__center {
+        display: none;
+    }
+
+    .head::before {
+        content: url("../pic/logo768.png");
+        padding-left: 43px;
+    }
+
+    .head::after {
+        content: url("../pic/burger.png");
+        padding-right: 44px;
+    }
+}
+
+/* промежуточная верстка 580px */
+@media (max-width: 580px) {
+    body {
+        margin: 0;
+    }
+
+    .head {
+        height: 95px;
+    }
+}
+
+/* верстка 375px */
+@media (max-width: 375px) {
+    .head {
+        height: 72px;
+    }
+
+    .head::before {
+        content: url("../pic/logo375.png");
+        padding-left: 48px;
+    }
+
+    .head::after {
+        content: url("../pic/burger375.png");
+        padding-right: 47px;
+    }
+}
+
+/* верстка 320px */
+@media (max-width: 320px) {
+    .head::before {
+        padding-left: 20px;
+    }
+
+    .head::after {
+        padding-right: 20px;
+    }
+} 
