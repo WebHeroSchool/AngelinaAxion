@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Gotham Pro Medium, sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   font-size: 12px;
   margin-bottom: 8px;
 }
@@ -146,13 +146,12 @@ body {
 
   .head {
     margin-bottom: 0;
-  }
-
-  .head {
     height: 111px;
   }
 
-  .head__left, .head__right, .head__center {
+  .head__left, 
+  .head__right, 
+  .head__center {
     display: none;
   }
 
@@ -204,4 +203,4 @@ body {
   .head::after {
     padding-right: 20px;
   }
-} 
+}

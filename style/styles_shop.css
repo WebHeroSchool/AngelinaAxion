@@ -1,7 +1,7 @@
 /* задание фона */
 .shop {
   background-image: url("../pic/shop_back.png");
-  font-family: Gotham Pro Bold, sans-serif;
+  font-family: "Gotham Pro Bold", sans-serif;
   height: 280px;
   width: 100%;
   display: flex;
