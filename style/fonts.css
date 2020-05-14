@@ -1,23 +1,22 @@
 @font-face {
-    font-family: Gotham Pro;
-    src: url("./GothamPro/GothamPro.woff2") format("woff2");
-    src: url("./GothamPro/GothamPro.woff") format("woff");
-    src: url("./GothamPro/GothamPro.otf") format("opentype");
-    font-weight: normal;
+  font-family: Gotham Pro;
+  src: url("./GothamPro/GothamPro.woff2") format("woff2");
+  src: url("./GothamPro/GothamPro.woff") format("woff");
+  src: url("./GothamPro/GothamPro.otf") format("opentype");
+  font-weight: normal;
 }
 @font-face {
-    font-family: Gotham Pro Medium;
-    src: url("./GothamPro/GothamPro-Medium.woff2") format("woff2");
-    src: url("./GothamPro/GothamPro-Medium.woff") format("woff");
+  font-family: Gotham Pro Medium;
+  src: url("./GothamPro/GothamPro-Medium.woff2") format("woff2");
+  src: url("./GothamPro/GothamPro-Medium.woff") format("woff");
 }
 @font-face {
-    font-family: Gotham Pro bold;
-    src: url("./GothamPro/GothamPro-Bold.woff2") format("woff2");
-    src: url("./GothamPro/GothamPro-Bold.woff") format("woff");
-
+  font-family: Gotham Pro bold;
+  src: url("./GothamPro/GothamPro-Bold.woff2") format("woff2");
+  src: url("./GothamPro/GothamPro-Bold.woff") format("woff");
 }
 @font-face {
-    font-family: Gotham Pro Light;
-    src: url("./GothamPro/GothamPro-Light.woff2") format("woff2");
-    src: url("./GothamPro/GothamPro-Light.woff") format("woff");
+  font-family: Gotham Pro Light;
+  src: url("./GothamPro/GothamPro-Light.woff2") format("woff2");
+  src: url("./GothamPro/GothamPro-Light.woff") format("woff");
 }
