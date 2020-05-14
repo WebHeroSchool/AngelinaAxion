@@ -149,8 +149,8 @@ body {
     height: 111px;
   }
 
-  .head__left, 
-  .head__right, 
+  .head__left,
+  .head__right,
   .head__center {
     display: none;
   }
