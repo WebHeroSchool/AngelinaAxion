@@ -82,6 +82,7 @@
     background-image: url("../pic/shop_back630.png");
     height: 340px;
   }
+
   .shop__title {
     font-size: 35px;
     line-height: 30px;
@@ -95,12 +96,14 @@
     background-image: url("../pic/shop_back500.png");
     height: 270px;
   }
+
   .shop__title {
     font-size: 25px;
     line-height: 25px;
     padding: 29px 0 14px 48px;
     width: 165px;
   }
+  
   .shop__link {
     font-size: 15px;
   }
