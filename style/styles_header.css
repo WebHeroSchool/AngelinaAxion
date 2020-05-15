@@ -36,7 +36,7 @@ body {
 }
 
 .head__search-button {
-  background: url("../pic/vector.png");
+  background: url("../pic/Vector.png");
   border: none;
   height: 14px;
   width: 13.52px;
@@ -97,11 +97,11 @@ body {
 /* верстка для 1024рх */
 @media (max-width: 1024px) {
   body {
-    margin: 10px 47px;
+    margin: 12px 47px;
   }
 
   .head {
-    margin-bottom: 23px;
+    margin-bottom: 22px;
   }
 
   .head__logo {

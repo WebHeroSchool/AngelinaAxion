@@ -12,7 +12,6 @@
 .shop__title {
   color: #fff;
   font-size: 30px;
-  height: 86px;
   width: 195px;
   margin: 0;
   padding: 16px 59px;
@@ -61,7 +60,7 @@
 
   .shop__title {
     font-size: 50px;
-    height: 145px;
+    line-height: 49px;
     width: 355px;
     padding: 42px 45px;
   }
@@ -77,6 +76,44 @@
   }
 }
 
+/* промежуточная верстка 630px */
+@media (max-width: 630px) {
+  .shop {
+    background-image: url("../pic/shop_back630.png");
+    height: 340px;
+  }
+  .shop__title {
+    font-size: 35px;
+    line-height: 30px;
+    padding: 29px 0 14px 48px;
+  }
+}
+
+/* прожеуточная верстка 500px */
+@media (max-width: 500px) {
+  .shop {
+    background-image: url("../pic/shop_back500.png");
+    height: 270px;
+  }
+  .shop__title {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 29px 0 14px 48px;
+    width: 165px;
+  }
+  .shop__link {
+    font-size: 15px;
+  }
+}
+
+/* промежуточная верстка 430px */
+@media (max-width: 430px) {
+  .shop {
+    background-image: url("../pic/shop_back430.png");
+    height: 230px;
+  }
+}
+
 /* верстка для 375px */
 @media (max-width: 375px) {
   .shop {
@@ -86,10 +123,9 @@
 
   .shop__title {
     font-size: 20px;
-    height: 61px;
     width: 150px;
     line-height: 19px;
-    padding: 29px 0 14px 48px;
+    padding: 27px 0 17px 48px;
   }
 
   .shop__link {
@@ -110,10 +146,10 @@
   }
 
   .shop__title {
-    padding-left: 19px;
+    padding-left: 20px;
   }
 
   .shop__link {
-    padding-left: 19px;
+    padding-left: 20px;
   }
 }
