@@ -66,37 +66,37 @@
 }
 
 .ellipse_black {
-  background-color: #0E1211;
+  background-color: #0e1211;
   height: 9px;
   width: 9px;
 }
 
 .ellipse_red {
-  background-color: #B62E3C;
+  background-color: #b62e3c;
 }
 
 .ellipse_orange {
-  background-color: #FDB431;
+  background-color: #fdb431;
 }
 
 .ellipse_camel {
-  background-color: #E29D69;
+  background-color: #e29d69;
   height: 9px;
   width: 9px;
 }
 
 .ellipse_smoke {
-  background-color: #762E31;
+  background-color: #762e31;
   height: 9px;
   width: 9px;
 }
 
 .ellipse_purple {
-  background-color: #41479B;
+  background-color: #41479b;
 }
 
 .ellipse_blue {
-  background-color: #257DA9;
+  background-color: #257da9;
   height: 9px;
   width: 9px;
 }
@@ -109,7 +109,7 @@
   opacity: 0.2;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .products {
     padding-top: 67px;
   }
@@ -194,7 +194,7 @@
   }
 
   .model_black .ellipse_gray {
-    background-color: #B62E3C;
+    background-color: #b62e3C;
   }
 
   .model_black .ellipse_red {
