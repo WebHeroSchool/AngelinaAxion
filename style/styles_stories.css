@@ -1,0 +1,285 @@
+.stories {
+  padding-top: 63px;
+}
+
+.stories__title {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.stories__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-first {
+  display: none;
+}
+
+.stories-item {
+  width: 307px;
+}
+
+.stories-item__pic {
+  padding-bottom: 29px;
+}
+
+.stories-item__title {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 9px;
+}
+
+.stories-item__article {
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  line-height: 127%;
+  padding-bottom: 18px;
+}
+
+.stories-item__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stories-item__link {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.stories-item__link::after {
+  content: url("../pic/arrow_stories.png");
+  padding-left: 7px;
+}
+
+.stories-item__date {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 12px;
+  opacity: 0.3;
+}
+
+@media (max-width: 1085px) {
+  .stories-item {
+    width: 280px;
+  }
+
+  .stories-item__pic {
+    width: 290px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .stories {
+    padding-top: 78px;
+  }
+
+  .stories-item {
+    width: 277px;
+  }
+
+  .stories-item__pic {
+    width: 277px;
+    height: 147.5px;
+  }
+
+  .pic-first {
+    display: inline;
+  }
+
+  .pic-first-big {
+    display: none;
+  }
+
+  .stories-item__article {
+    font-size: 13px;
+    padding-bottom: 24px;
+  }
+
+  .stories-item__link::after {
+    content: url("../pic/arrow_stories1024.png");
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 940px) {
+  .stories-item {
+    width: 230px;
+  }
+
+  .stories-item__pic {
+    width: 230px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stories {
+    background-color: #000;
+    color: #fff;
+    height: 800px;
+    width: 110%;
+    transform: rotate(2.6deg);
+    left: -50px;
+    position: relative;
+    padding-top: 23px;
+  }
+
+  .stories__title {
+    font-size: 30px;
+    padding-right: 7px;
+    margin-bottom: 43px;
+  }
+
+  .stories__title, .stories__block {
+    transform: rotate(-2.6deg);
+  }
+
+  .item-third {
+    display: none;
+  }
+
+  .stories__block {
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .item-first {
+    width: 331px;
+    padding-right: 10px;
+  }
+
+  .item-second {
+    width: 312px;
+    padding-left: 28px;
+  }
+
+  .stories-item__pic {
+    width: 312px;
+    height: 166px;
+  }
+
+  .stories-item__title {
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  
+  .stories-item__article {
+    font-size: 20px;
+    padding-bottom: 37px;
+    width: 310px;
+  }
+
+  .stories-item__link {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .stories-item__link::after {
+    content: url("../pic/arrow_stories768.png");
+    padding-left: 12px;
+  }
+
+  .stories-item__date {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .stories-item {
+    width: 280px;
+  }
+
+  .stories-item__pic {
+    width: 280px;
+  }
+
+  .stories-item__title {
+    font-size: 23px;
+  }
+
+  .stories-item__article {
+    font-size: 17px;
+  }
+
+  .stories-item__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 655px) {
+  .stories {
+    width: 120%;
+  }
+
+  .item-second {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .stories {
+    width: 120%;
+  }
+}
+
+@media (max-width: 375px) {
+  .stories {
+    padding-top: 25px;
+  }
+
+  .stories__title {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+
+  .stories__block {
+    padding-left: 24px;
+  }
+
+  .stories-item {
+    width: 279px;
+  }
+
+  .stories-item__pic {
+    width: 279px;
+    height: 148px;
+    padding-bottom: 27px;
+  }
+
+  .stories-item__title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .stories-item__article {
+    width: 278px;
+    font-size: 14px;
+    line-height: 17.7px;
+    padding-bottom: 26px;
+  }
+
+  .stories-item__link {
+    font-size: 12px;
+  }
+
+  .stories-item__link::after {
+    content: url("../pic/arrow_stories375.png");
+    padding-left: 11px;
+  }
+}
+
+@media (max-width: 320px) {
+  .stories__block {
+    padding-left: 35px;
+  }
+
+  .stories__title {
+    padding-left: 10px;
+  }
+} 
+

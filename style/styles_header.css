@@ -1,6 +1,7 @@
 body {
   margin: 12px auto;
   max-width: 1030px;
+  overflow-x: hidden;
 }
 
 /* расположение элементов */

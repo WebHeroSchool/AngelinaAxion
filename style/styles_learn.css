@@ -1,0 +1,235 @@
+.learn {
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  height: 494px;
+}
+
+.learn__block-title,
+.learn__block-paragraph,
+.learn__block-link {
+  color: #fff;
+}
+
+.learn__block {
+  width: 259px;
+  margin-right: 17.5px;
+  padding: 155px 0 152px;
+}
+
+.learn__block-title {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0 0 10px;
+}
+
+.learn__block-paragraph {
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 15px;
+}
+
+.learn__block-link {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.learn__block-link::after {
+  content: url("../pic/Arrow.png");
+  padding-left: 8px;
+}
+
+.learn__video {
+  padding: 68px 0 66px;
+  margin-right: 8px;
+}
+
+@media(max-width: 1100px) {
+  .learn {
+    justify-content: center;
+  }
+
+  .learn__video {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .learn {
+    height: 442px;
+    justify-content: space-evenly;
+  }
+
+  .learn__video {
+    width: 578px;
+    padding: 60px 0 58px;
+    margin-right: 7px;
+  }
+
+  .learn__block {
+    width: 248px;
+    margin-right: 4px;
+    padding: 138px 0 136px;
+  }
+
+  .learn__block-title {
+    margin: 0 0 7px;
+    line-height: 27px;
+  }
+
+  .learn__block-paragraph {
+    font-size: 13px;
+    margin: 0 0 10px;
+    line-height: 16.4px;
+  }
+
+  .learn__block-link::after {
+    padding-left: 13px;
+  }
+}
+
+@media (max-width: 940px) {
+  .learn__video {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .learn {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 110%;
+    transform: rotate(2.6deg);
+    left: -50px;
+    position: relative;
+  }
+
+  .learn__video {
+    transform: rotate(-2.6deg);
+    width: 700px;
+    height: 390px;
+    padding-top: 22px;
+    padding-left: 40px;
+
+  }
+
+  .learn__block {
+    transform: rotate(-2.6deg);
+    padding: 0;
+    width: 686px;
+    padding-top: 75px;
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .learn__block-link {
+    display: none;
+  }
+
+  .learn__block-title {
+    font-size: 30px;
+    padding-bottom: 14px;
+  }
+
+  .learn__block-paragraph {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 710px) {
+  .learn__video {
+    width: 492px;
+    height: 275px;
+  }
+
+  .learn__block {
+    width: 480px;
+  }
+
+  .learn__block-title {
+    font-size: 25px;
+  }
+
+  .learn__block-paragraph {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 635px) {
+  .learn {
+    width: 120%;
+  }
+}
+
+@media (max-width: 530px) {
+  .learn__video {
+    width: 320px;
+    height: 190px;
+  }
+
+  .learn__block {
+    width: 330px;
+  }
+
+  .learn__block-title {
+    font-size: 22px;
+  }
+
+  .learn__block-paragraph {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 470px) {
+  .learn {
+    width: 120%;
+  }
+}
+
+@media (max-width: 375px) {
+  .learn {
+    width: 120%;
+  }
+
+  .learn__block-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    width: 260px;
+    padding-left: 9px;
+  }
+
+  .learn__block-paragraph {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .learn__video {
+    width: 284px;
+    height: 159px;
+    padding-top: 19px;
+  }
+
+  .learn__block {
+    width: 280px;
+    padding-top: 34px;
+    padding-left: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .learn__block {
+    padding-left: 25px;
+  }
+
+  .learn__video {
+    padding-left: 51px;
+  }
+}
