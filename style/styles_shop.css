@@ -1,0 +1,158 @@
+/* задание фона */
+.shop {
+  background-image: url("../pic/shop_back.png");
+  font-family: "Gotham Pro Bold", sans-serif;
+  height: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shop__title {
+  color: #fff;
+  font-size: 30px;
+  width: 195px;
+  margin: 0;
+  padding: 16px 57px;
+}
+
+/* создание ссылки со стрелкой */
+.shop__link {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 59px;
+  text-decoration: none;
+}
+
+.shop__link::after {
+  content: url("../pic/Arrow.png");
+  padding-left: 8px;
+}
+
+/* верстка для 1024рх */
+@media (max-width: 1024px) {
+  .shop {
+    background-image: url("../pic/shop_back1024.png");
+    height: 254px;
+  }
+
+  .shop__title {
+    padding: 10px 52px;
+  }
+
+  .shop__link {
+    padding-left: 54px;
+  }
+
+  .shop__link::after {
+    content: url("../pic/Arrow1024.png");
+    padding-left: 11px;
+  }
+}
+
+/* верстка для 768рх */
+@media (max-width: 768px) {
+  .shop {
+    background-image: url("../pic/shop_back768.png");
+    height: 415px;
+  }
+
+  .shop__title {
+    font-size: 50px;
+    line-height: 49px;
+    width: 355px;
+    padding: 42px 43px;
+  }
+
+  .shop__link {
+    font-size: 20px;
+    padding-left: 45px;
+  }
+
+  .shop__link::after {
+    content: url("../pic/Arrow768.png");
+    padding-left: 9px;
+  }
+}
+
+/* промежуточная верстка 630px */
+@media (max-width: 630px) {
+  .shop {
+    background-image: url("../pic/shop_back630.png");
+    height: 340px;
+  }
+
+  .shop__title {
+    font-size: 35px;
+    line-height: 30px;
+    padding: 29px 0 14px 44px;
+  }
+}
+
+/* прожеуточная верстка 500px */
+@media (max-width: 500px) {
+  .shop {
+    background-image: url("../pic/shop_back500.png");
+    height: 270px;
+  }
+
+  .shop__title {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 29px 0 14px 44px;
+    width: 165px;
+  }
+
+  .shop__link {
+    font-size: 15px;
+  }
+}
+
+/* промежуточная верстка 430px */
+@media (max-width: 430px) {
+  .shop {
+    background-image: url("../pic/shop_back430.png");
+    height: 230px;
+  }
+}
+
+/* верстка для 375px */
+@media (max-width: 375px) {
+  .shop {
+    background-image: url("../pic/shop_back375.png");
+    height: 191px;
+  }
+
+  .shop__title {
+    font-size: 20px;
+    width: 150px;
+    line-height: 19px;
+    padding: 31px 0 18px 47px;
+  }
+
+  .shop__link {
+    font-size: 12px;
+    padding-left: 48px;
+  }
+
+  .shop__link::after {
+    content: url("../pic/Arrow375.png");
+    padding-left: 7px;
+  }
+}
+
+/* верстка для 320px */
+@media (max-width: 320px) {
+  .shop {
+    background-image: url("../pic/shop_back320.png");
+  }
+
+  .shop__title {
+    padding-left: 20px;
+  }
+
+  .shop__link {
+    padding-left: 20px;
+  }
+}

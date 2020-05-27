@@ -1,0 +1,257 @@
+.products {
+  padding-top: 54px;
+}
+
+.products__title {
+  margin: 0;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 22px;
+}
+
+.products__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-shop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.products-shop__pic {
+  display: inline-block;
+  padding-left: 23px;
+  padding-right: 19px;
+  padding-bottom: 30px;
+}
+
+.products-shop__model {
+  display: inline-block;
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 12px;
+  padding-left: 12px;
+  padding-bottom: 7px;
+}
+
+.products-shop__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-shop__price {
+  font-family: "Gotham Pro Bold", sans-serif;
+  font-size: 14px;
+  padding-left: 12px;
+}
+
+.products-shop__block-ellipse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3px;
+}
+
+.products-shop__ellipse {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  margin-right: 8px;
+}
+
+.ellipse_gray {
+  background-color: #c4c4c4;
+}
+
+.ellipse_black {
+  background-color: #0e1211;
+  height: 9px;
+  width: 9px;
+}
+
+.ellipse_red {
+  background-color: #b62e3c;
+}
+
+.ellipse_orange {
+  background-color: #fdb431;
+}
+
+.ellipse_camel {
+  background-color: #e29d69;
+  height: 9px;
+  width: 9px;
+}
+
+.ellipse_smoke {
+  background-color: #762e31;
+  height: 9px;
+  width: 9px;
+}
+
+.ellipse_purple {
+  background-color: #41479b;
+}
+
+.ellipse_blue {
+  background-color: #257da9;
+  height: 9px;
+  width: 9px;
+}
+
+.products-shop__line {
+  background-color: #000;
+  height: 100px;
+  width: 1px;
+  margin-top: 43px;
+  opacity: 0.2;
+}
+
+@media (max-width: 1024px) {
+  .products {
+    padding-top: 67px;
+  }
+
+  .products__title {
+    padding-bottom: 21px;
+  }
+
+  .products-shop__pic {
+    height: 162px;
+    width: 170px;
+    padding-left: 19px;
+    padding-bottom: 36px;
+  }
+
+  .products-shop__model {
+    padding-left: 11px;
+  }
+
+  .products-shop__ellipse {
+    margin-right: 7px;
+  }
+
+  .products-shop__price {
+    padding-left: 11px;
+  }
+
+  .products-shop__line {
+    margin-top: 38px;
+  }
+}
+
+@media (max-width: 926px) {
+  .model_blue {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .model_smoke,
+  .products-shop__line {
+    display: none;
+  }
+
+  .products__title {
+    font-size: 30px;
+    padding-right: 18px;
+    padding-bottom: 28px;
+  }
+
+  .products-shop__pic {
+    height: 220px;
+    width: 231px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+  }
+
+  .products__block {
+    justify-content: space-evenly;
+  }
+
+  .products-shop__model {
+    font-size: 20px;
+    padding-bottom: 18px;
+    padding-left: 13px;
+  }
+
+  .products-shop__price {
+    font-size: 25px;
+    padding-left: 13px;
+  }
+
+  .products-shop__ellipse {
+    height: 20px;
+    width: 20px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .products-shop__block-ellipse {
+    margin-right: 0;
+  }
+
+  .model_black .ellipse_gray {
+    background-color: #b62e3c;
+  }
+
+  .model_black .ellipse_red {
+    background-color: #c4c4c4;
+  }
+
+  .model_black .products-shop__block-ellipse {
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 555px) {
+  .model_camel {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .products {
+    padding-top: 38px;
+  }
+
+  .products-shop {
+    width: 281px;
+  }
+
+  .products__title {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+
+  .products-shop__pic {
+    align-self: center;
+    height: 154px;
+    width: 165px;
+    padding-left: 26px;
+    padding-bottom: 26px;
+  }
+
+  .products-shop__model {
+    font-size: 15px;
+    padding-left: 16px;
+    padding-bottom: 9px;
+  }
+
+  .products-shop__price {
+    font-size: 20px;
+    padding-left: 16px;
+  }
+
+  .products-shop__ellipse {
+    height: 15px;
+    width: 15px;
+  }
+
+  .model_black .products-shop__block-ellipse {
+    margin-right: 0;
+  }
+}
