@@ -30,13 +30,12 @@
   flex-direction: column;
 }
 
-
 .footer-sign__button {
   background-color: #000;
   color: #fff;
   width: 136.57px;
   height: 29.7px;
-  font-family: "Gotham Pro Bold";
+  font-family: "Gotham Pro Bold", sans-serif;
   font-size: 10px;
   border: 1.5px solid #fff;
   padding-top: 4px;
@@ -171,7 +170,7 @@
     width: 15.56px;
     height: 12.64px;
   }
-  
+
   .instagram {
     width: 15.56px;
     height: 15.56px;
@@ -213,7 +212,7 @@
   }
 }
 
-@media(max-width: 454px) {
+@media (max-width: 454px) {
   .navigation_three {
     padding-top: 30px;
   }
@@ -336,8 +335,11 @@
     width: 313px;
     margin: 0 auto;
   }
+
   .footer-sign {
     padding-left: 2px;
+    align-self: center;
+    margin-right: 5px;
   }
 
   .navigation_one {
@@ -354,10 +356,5 @@
 
   .footer__block {
     padding-left: 0;
-  }
-
-  .footer-sign {
-    align-self: center;
-    margin-right: 5px;
   }
 }
