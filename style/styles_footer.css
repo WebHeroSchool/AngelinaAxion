@@ -8,7 +8,6 @@
   display: flex;
   padding-top: 70px;
   justify-content: center;
-  /* padding-left: 300px; */
 }
 
 .footer-navigation__link {
@@ -109,7 +108,7 @@
   }
 
   .navigation_one {
-    flex-basis: 141.23px
+    flex-basis: 141.23px;
   }
 
   .navigation_two {
