@@ -173,12 +173,19 @@
     flex-wrap: wrap;
   }
 
+  .navigation_two,
+  .navigation_three {
+    flex-basis: 150px;
+  }
+}
+
+@media (max-width: 596px) {
   .footer-sign {
     padding-top: 30px;
   }
 }
 
-@media (max-width: 454px) {
+@media (max-width: 441px) {
   .navigation_three {
     padding-top: 30px;
   }
