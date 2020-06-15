@@ -42,9 +42,15 @@
   padding-left: 8px;
 }
 
-.learn__video {
-  padding: 68px 0 66px;
+.learn__video-block {
+  max-width: 644px;
+  display: flex;
+  align-items: center;
   margin-right: 8px;
+}
+
+.learn__video {
+  width: 100%;
 }
 
 @media (max-width: 1100px) {
@@ -52,9 +58,9 @@
     justify-content: center;
   }
 
-  .learn__video {
+  /* .learn__video {
     width: 600px;
-  }
+  } */
 }
 
 @media (max-width: 1024px) {
@@ -63,11 +69,15 @@
     justify-content: space-evenly;
   }
 
-  .learn__video {
-    width: 578px;
-    padding: 60px 0 58px;
+  .learn__video-block {
+    max-width: 577px;
     margin-right: 7px;
   }
+
+  /* .learn__video {
+    padding: 60px 0 58px;
+    margin-right: 7px;
+  } */
 
   .learn__block {
     width: 248px;
@@ -91,12 +101,12 @@
   }
 }
 
-@media (max-width: 940px) {
+/* @media (max-width: 940px) {
   .learn__video {
     width: 500px;
     height: 300px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .learn {
@@ -107,9 +117,13 @@
     height: 100%;
   }
 
+  .learn__video-block {
+    max-width: 700px;
+  }
+
   .learn__video {
-    width: 698px;
-    height: 390px;
+    /* width: 698px;
+    height: 390px; */
     padding-top: 22px;
     margin: 0;
   }
@@ -138,10 +152,10 @@
 }
 
 @media (max-width: 710px) {
-  .learn__video {
+  /* .learn__video {
     width: 492px;
     height: 275px;
-  }
+  } */
 
   .learn__block {
     width: 480px;
@@ -157,10 +171,10 @@
 }
 
 @media (max-width: 530px) {
-  .learn__video {
+  /* .learn__video {
     width: 320px;
     height: 190px;
-  }
+  } */
 
   .learn__block {
     width: 330px;
@@ -190,8 +204,8 @@
   }
 
   .learn__video {
-    width: 284px;
-    height: 159px;
+    /* width: 284px;
+    height: 159px; */
     padding-top: 18px;
   }
 
