@@ -23,3 +23,9 @@
   src: url("./GothamPro/GothamPro-Light.woff2") format("woff2");
   src: url("./GothamPro/GothamPro-Light.woff") format("woff");
 }
+
+@font-face {
+  font-family: Gotham Pro Regular;
+  src: url("./GothamPro/GothamProRegular.woff2") format("woff2");
+  src: url("./GothamPro/GothamProRegular.woff") format("woff");
+}

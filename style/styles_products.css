@@ -1,5 +1,6 @@
 .products {
   padding-top: 54px;
+  padding-bottom: 51px;
 }
 
 .products__title {
@@ -30,7 +31,7 @@
 
 .products-shop__model {
   display: inline-block;
-  font-family: "Gotham Pro Light", sans-serif;
+  font-family: "Gotham Pro Regular", sans-serif;
   font-size: 12px;
   padding-left: 12px;
   padding-bottom: 7px;
@@ -112,6 +113,7 @@
 @media (max-width: 1024px) {
   .products {
     padding-top: 67px;
+    padding-bottom: 77px;
   }
 
   .products__title {
@@ -149,6 +151,11 @@
 }
 
 @media (max-width: 768px) {
+  .products {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+
   .model_smoke,
   .products-shop__line {
     display: none;
@@ -215,6 +222,7 @@
 @media (max-width: 375px) {
   .products {
     padding-top: 38px;
+    margin-bottom: 45px;
   }
 
   .products-shop {
