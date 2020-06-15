@@ -1,7 +1,6 @@
 .learn {
   background-color: #000;
   display: flex;
-  justify-content: space-evenly;
   height: 494px;
 }
 
@@ -12,9 +11,13 @@
 }
 
 .learn__block {
-  width: 267px;
-  margin-right: 11px;
-  padding: 154px 0 152px;
+  margin: auto 0;
+  max-width: 311px;
+}
+
+.learn__block-text {
+  width: 85%;
+  padding-top: 5px;
 }
 
 .learn__block-title {
@@ -27,8 +30,8 @@
 .learn__block-paragraph {
   font-family: "Gotham Pro Regular", sans-serif;
   font-size: 14px;
-  line-height: 18px;
-  margin: 0 0 14px;
+  line-height: 17px;
+  margin: 0 0 18px;
 }
 
 .learn__block-link {
@@ -43,46 +46,34 @@
 }
 
 .learn__video-block {
-  max-width: 644px;
+  max-width: 719px;
   display: flex;
   align-items: center;
-  margin-right: 8px;
+  justify-content: center;
 }
 
 .learn__video {
-  width: 100%;
-}
-
-@media (max-width: 1100px) {
-  .learn {
-    justify-content: center;
-  }
-
-  /* .learn__video {
-    width: 600px;
-  } */
+  width: 89.57%;
+  margin-right: 6.5px;
 }
 
 @media (max-width: 1024px) {
   .learn {
     height: 442px;
-    justify-content: space-evenly;
   }
 
   .learn__video-block {
-    max-width: 577px;
-    margin-right: 7px;
+    max-width: 710px;
   }
 
-  /* .learn__video {
-    padding: 60px 0 58px;
-    margin-right: 7px;
-  } */
+  .learn__video {
+    width: 89.3%;
+    margin-right: 8px;
+  }
 
-  .learn__block {
-    width: 248px;
-    margin-right: 4px;
-    padding: 138px 0 136px;
+  .learn__block-text {
+    width: 87%;
+    padding-top: 0;
   }
 
   .learn__block-title {
@@ -101,14 +92,7 @@
   }
 }
 
-/* @media (max-width: 940px) {
-  .learn__video {
-    width: 500px;
-    height: 300px;
-  }
-} */
-
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .learn {
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -118,22 +102,26 @@
   }
 
   .learn__video-block {
-    max-width: 700px;
+    max-width: 768px;
+    margin: 0;
   }
 
   .learn__video {
-    /* width: 698px;
-    height: 390px; */
     padding-top: 22px;
     margin: 0;
+    width: 91%;
   }
 
   .learn__block {
     padding: 0;
-    width: 690px;
-    margin-top: 132px;
+    max-width: 768px;
+    margin-top: 129px;
     text-align: center;
-    margin-right: 0;
+  }
+
+  .learn__block-text {
+    margin: 0 auto;
+    width: 90%;
   }
 
   .learn__block-link {
@@ -152,15 +140,6 @@
 }
 
 @media (max-width: 710px) {
-  /* .learn__video {
-    width: 492px;
-    height: 275px;
-  } */
-
-  .learn__block {
-    width: 480px;
-  }
-
   .learn__block-title {
     font-size: 25px;
   }
@@ -171,15 +150,6 @@
 }
 
 @media (max-width: 530px) {
-  /* .learn__video {
-    width: 320px;
-    height: 190px;
-  } */
-
-  .learn__block {
-    width: 330px;
-  }
-
   .learn__block-title {
     font-size: 22px;
   }
@@ -189,13 +159,12 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .learn__block-title {
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
     line-height: 25px;
-    width: 260px;
-    padding-left: 9px;
+    margin: 0 auto;
   }
 
   .learn__block-paragraph {
@@ -203,15 +172,34 @@
     line-height: 17px;
   }
 
+  .learn__video-block {
+    max-width: 420px;
+  }
+
   .learn__video {
-    /* width: 284px;
-    height: 159px; */
     padding-top: 18px;
+    width: 76%;
   }
 
   .learn__block {
-    width: 280px;
-    margin-top: 73px;
+    margin-top: 69px;
+  }
+}
+
+@media (max-width: 375px) {
+  .learn__video {
+    width: 285px;
+  }
+
+  .learn__block-text {
+    width: 100%;
+  }
+  .learn__block-title {
+    width: 260px;
+  }
+
+  .learn__block-paragraph {
+    width: 281px;
   }
 }
 
